@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Scuf-Code";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,7 +56,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "ScufBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
@@ -88,24 +88,24 @@
         skipPosition: 3,
         skipReasons: [
             ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["op", "This song is on the OP list. http://j.mp/TheUndergroundGuide/ For More Details. "],
+            ["history", "This song is in the history. Please Wait 24 Hrs. Before Playing Again. "],
+            ["mix", "You played a mix, which is against the rules. Don't Do It Again. You Hear? "],
+            ["sound", "The song you played had bad sound quality or no sound. Sorry. "],
+            ["nsfw", "The song you contained was NSFW (image or sound). You Might Get Banned For This. "],
+            ["unavailable", "The song you played was not available for some users. Choose another one next time! "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "The Underground Room. :warning: Guide: http://j.mp/TheUndergroundGuide",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: null,
-        rulesLink: null,
-        themeLink: null,
+        opLink: "http://j.mp/TheUndergroundGuide",
+        rulesLink: "http://j.mp/TheUndergroundGuide",
+        themeLink: "http://j.mp/TheUndergroundGuide",
         fbLink: null,
         youtubeLink: null,
         website: null,
